@@ -8,36 +8,7 @@ body {
   height: 100vh;
   margin: 0;
 }
-.ad-promo{
-  background-color: #3de014ed;
-  color: #ffffff;
-  padding: 10px 15px;
-  font-size: medium;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  cursor: pointer;
-  animation: glowing4 1300ms infinite;
-}
 
-@keyframes glowing4 {
-  0% {
-    background-color: #3de014ed;
-    box-shadow: 0 0 5px #3de014ed;
-  }
-
-  50% {
-    background-color: #289a0ced;
-    box-shadow: 0 0 20px #249e05ed;
-  }
-
-  100% {
-    background-color: #3de014ed;
-    box-shadow: 0 0 5px #3de014ed;
-  }
-}
 
 .container {
   text-align: center;
@@ -87,6 +58,37 @@ ul li {
   font-size: 1.1em;
 }
 
+.ad-promo{
+  background-color: #3de014ed;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: medium;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  animation: glowing4 1300ms infinite;
+}
+
+@keyframes glowing4 {
+  0% {
+    background-color: #3de014ed;
+    box-shadow: 0 0 5px #3de014ed;
+  }
+
+  50% {
+    background-color: #289a0ced;
+    box-shadow: 0 0 20px #249e05ed;
+  }
+
+  100% {
+    background-color: #3de014ed;
+    box-shadow: 0 0 5px #3de014ed;
+  }
+}
+
 footer {
   margin-top: 20px;
   font-size: 0.9em;
@@ -96,6 +98,7 @@ footer a {
   color: #4f9ec7;
   text-decoration: none;
 }
+
 
 footer a:hover {
   text-decoration: underline;
